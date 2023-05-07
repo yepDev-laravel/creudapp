@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    color: inherit;
+}
+header{
+    height: 60px;
+    background: rgb(46, 46, 46);
+    color: white;
+    padding:0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.title{
+    font-size: 25px;
+    
+}
+.addStudent{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: rgb(38, 139, 38);
+    transition: all 0.3s;
+}
+
+.addStudent:hover{
+    transform: scale(1.1);
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(38, 139, 38)
+}
+main{
+    padding:0 100px;
+     padding-top: 3rem;
+    
+    flex-grow: 1;
+    color: black;
+    background: white;
+}
+th{
+    background-color: black;
+    color: white;
+}
+footer{
+    height: 60px;
+    display: flex;
+    padding: 0 100px;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(218, 217, 217);
+}
